@@ -1,8 +1,4 @@
-public class Cat implements Printable{
+public interface Printable{
 
-	public String name;
-    public int age;
-    public Cat(){}
-    public void print(){
-    system.out.println(“Meow”);
+	void print(); //declaring a method without the implementation
 }
